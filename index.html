@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shridhar Kumbhar — Full Stack Developer and Cybersecurity enthusiast." />
+  <title>Shridhar Kumbhar | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">SK<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1>Hi, I'm <span>Shridhar Kumbhar.</span></h1>
+        <h2>Full Stack Developer <em>&</em> Cybersecurity Enthusiast</h2>
+        <p class="intro">I build responsive web experiences and enjoy exploring how to make applications more secure. I’m eager to contribute, learn, and solve real-world problems with technology.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="quick-facts"><span>HTML · CSS · JavaScript</span><span>Python · SQL</span><span>Web Security</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p><span class="code-purple">const</span> developer = {</p>
+          <p class="indent">name: <span class="code-green">'Shridhar'</span>,</p>
+          <p class="indent">focus: <span class="code-green">'Full Stack'</span>,</p>
+          <p class="indent">interest: <span class="code-green">'Cybersecurity'</span>,</p>
+          <p class="indent">mindset: <span class="code-green">'Always learning'</span></p>
+          <p>};</p>
+          <div class="terminal-line"><span>➜</span> building something useful<span class="cursor">_</span></div>
+        </div>
+        <div class="floating-chip chip-top">{"</>"}</div><div class="floating-chip chip-bottom">🛡️ Secure by design</div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2 class="section-title">Curious mind. <span>Practical builder.</span></h2>
+        <p class="section-text">I’m a B.Tech Computer Science and Engineering graduate with an interest in both full stack development and cybersecurity. I enjoy creating useful applications, understanding how systems work, and learning ways to protect digital products. I’m currently looking for an entry-level opportunity where I can grow and contribute to a development team.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">02 / TOOLKIT</p>
+      <h2 class="section-title">Skills & technologies</h2>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Frontend</h3><p>HTML5, CSS3, JavaScript, responsive design, React fundamentals</p></article>
+        <article class="skill-card"><div class="skill-icon">⚙</div><h3>Backend & Database</h3><p>Python, REST API fundamentals, SQL, Firebase fundamentals</p></article>
+        <article class="skill-card"><div class="skill-icon">🛡</div><h3>Cybersecurity</h3><p>Networking fundamentals, TCP/IP, ethical hacking concepts, vulnerability assessment</p></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Tools & workflow</h3><p>Git, GitHub, Linux, Kali Linux, VS Code</p></article>
+      </div>
+      <p class="small-note">Edit this list to match the technologies you can confidently discuss in an interview.</p>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2 class="section-title">Projects I've explored</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-top purple-bg"><span>01</span><strong>🔐</strong></div>
+            <div class="project-body"><p class="project-type">PYTHON · SECURITY</p><h3>Strong Password Generator</h3><p>A Python project that generates strong passwords using a mix of character types to encourage safer account practices.</p><div class="tags"><span>Python</span><span>Randomization</span><span>Security</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add GitHub repository ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top blue-bg"><span>02</span><strong>🧠</strong></div>
+            <div class="project-body"><p class="project-type">MACHINE LEARNING · HEALTHCARE</p><h3>DeepRetina</h3><p>A diabetic retinopathy detection project exploring image-based analysis and machine learning for identifying signs of retinal disease.</p><div class="tags"><span>Python</span><span>Machine Learning</span><span>Image Analysis</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add GitHub repository ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top orange-bg"><span>03</span><strong>🛒</strong></div>
+            <div class="project-body"><p class="project-type">FRONTEND · WEB DEVELOPMENT</p><h3>Amazon Clone</h3><p>A practice e-commerce interface focused on recreating common shopping layouts and interactive frontend elements.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add GitHub repository ↗</a></div>
+          </article>
+        </div>
+        <p class="small-note">Replace each “Add GitHub repository” link with the URL of your actual project. Remove any project that is not yours or is not ready to show.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <p class="eyebrow">04 / EDUCATION & LEARNING</p>
+      <h2 class="section-title">My learning journey</h2>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-year">2022 — 2026</span><div><h3>B.Tech — Computer Science & Engineering</h3><p>Ashokrao Mane Group of Institutions</p></div></div>
+        <div class="timeline-item"><span class="timeline-year">TRAINING</span><div><h3>Networking & Cybersecurity</h3><p>CCNA training, CEH training, and SOC Analyst training. EC-Council course in progress (update status if needed).</p></div></div>
+        <div class="timeline-item"><span class="timeline-year">PRACTICAL EXPERIENCE</span><div><h3>Internship</h3><p>6-month internship — Sumatech Learning Solutions LLP.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Have an opportunity or idea?</h2>
+        <p>I'm interested in entry-level Full Stack Development, web development, and cybersecurity opportunities.</p>
+        <div class="contact-actions">
+          <a class="button light-button" href="mailto:shridhargk2004@gmail.com">Email me ↗</a>
+          <a class="button secondary" href="tel:+917709554307">Call me 📞</a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="mailto:shridhargk2004@gmail.com">shridhargk2004@gmail.com</a>
+          <a href="tel:+917709554307">+91 77095 54307</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Shridhar Kumbhar</span><span>Built with HTML, CSS & JavaScript</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
